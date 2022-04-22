@@ -18,7 +18,7 @@ public class ExtendsThread extends Thread {
                 System.out.println(i + " - " + this.getName());
                 Thread.sleep((long)(Math.random() * 1000));
             }
-            System.out.println("Finalizando " + this.getName());
+            System.out.println("Finalizando " + this.getName() + ".");
         } catch(Exception e) {
             e.printStackTrace();
         }
